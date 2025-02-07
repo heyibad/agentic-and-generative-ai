@@ -1,8 +1,9 @@
 ## Run Large Language Models(LLMs) Locally Or With Github Codespaces using Ollama
 
-This repository provides step-by-step instructions to install and run a LLM or lightweight language model (e.g., [TinyLlama](https://github.com/jzhang38/TinyLlama)) in GitHub Codespaces using [Ollama](https://ollama.com). Ollama is a lightweight local LLM server optimized for Linux-based containers. Because models like TinyLlama are compact (typically under 1 GB), they are ideal for running in Codespaces without exhausting storage quotas.
+This repository provides step-by-step instructions to install and run a LLM or lightweight language model (e.g., [TinyLlama](https://github.com/jzhang38/TinyLlama)) in GitHub Codespaces or Locally using [Ollama](https://ollama.com).
+Ollama is a free, open-source tool that allows users to run large language models (LLMs) locally on their computers. Ollama is available on MacOS and Linux and uses a command-line interface. 
 
-## Prerequisites For Online Environment
+## Prerequisites For Online Environment (For Locally you need Python Only)
 
 - A **GitHub account** with access to GitHub Codespaces.
 - Familiarity with basic **command-line usage**.
@@ -38,3 +39,6 @@ ollama serve
 ollama run tinyllama
 ```
 Press Enter, and the model will generate a response.
+
+## Example
+[Integate Ollama with LangChain](https://github.com/heyibad/agentic-and-generative-ai/blob/main/ollama-exmple-langchain.md)
