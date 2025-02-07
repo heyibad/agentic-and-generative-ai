@@ -1,4 +1,4 @@
-#Learn Agentic Ai & Generative Ai 
+# Learn Agentic Ai & Generative Ai 
 ## Building Effective Ai agents & GenAi Apps 
 ## Explore & Learn new Frameworks & Technologies
 
