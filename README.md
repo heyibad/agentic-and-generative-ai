@@ -1,2 +1,1 @@
-# agentic-ai
-Learn Agentic Ai | Building Effective agent | Explore &amp; Learn new Frameworks &amp; Technologies
+## Learn Agentic Ai & Generative Ai | Building Effective agents & GenAi Apps | Explore & Learn new Frameworks & Technologies
