@@ -43,21 +43,21 @@
     ```python
 
     from langchain_ollama import ChatOllama
-from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
+    from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
-# Initialize the Ollama LLM with the TinyLlama model
-llm = ChatOllama(model="tinyllama", temperature=0)
+   # Initialize the Ollama LLM with the TinyLlama model
+    llm = ChatOllama(model="tinyllama", temperature=0)
 
-# Define the conversation messages properly
-messages = [
+   # Define the conversation messages properly
+    messages = [
     SystemMessage(content="You are a helpful assistant that translates English to French. Translate the user sentence."),
     HumanMessage(content="I love programming.")
-]
+     ]
 
-# Generate a response
-ai_msg = llm.invoke(messages)
+    # Generate a response
+    ai_msg = llm.invoke(messages)
 
-print(ai_msg.content)  # Extracts and prints the AI's response
+    print(ai_msg.content)  # Extracts and prints the AI's response
 ```
 
 **Additional Resources**:
