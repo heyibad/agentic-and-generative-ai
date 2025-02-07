@@ -40,7 +40,7 @@
    - This script initializes the TinyLlama model and generates a response to the provided prompt.
 
    ### Example:
-    ```python
+      ```python
 
     from langchain_ollama import ChatOllama
     from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
@@ -58,7 +58,7 @@
     ai_msg = llm.invoke(messages)
 
     print(ai_msg.content)  # Extracts and prints the AI's response
-```
+   ```
 
 **Additional Resources**:
 - For more detailed information on using Ollama with LangChain, refer to the [LangChain documentation](https://python.langchain.com/docs/integrations/llms/ollama/).
