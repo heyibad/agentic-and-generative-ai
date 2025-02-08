@@ -41,4 +41,4 @@ ollama run tinyllama
 Press Enter, and the model will generate a response.
 
 ## Example
-[Integate Ollama with LangChain](https://github.com/heyibad/agentic-and-generative-ai/blob/main/ollama-exmple-langchain.md)
+[Integate Ollama with LangChain](https://github.com/heyibad/agentic-and-generative-ai/blob/main/Docs/ollama-exmple-langchain.md)
