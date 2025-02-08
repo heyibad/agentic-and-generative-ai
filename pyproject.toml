@@ -1,0 +1,7 @@
+[project]
+name = "agentic-and-generative-ai"
+version = "0.1.0"
+description = "Agentic & Generative Ai"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
